@@ -28,11 +28,12 @@ export async function POST(req: Request) {
     return NextResponse.json({ error }, { status: 500 })
   }
 
-  return NextResponse.json(
-    { success: true },
+  return new Response(
+    JSON.stringify({ success: !error }),
     {
       headers: {
-        "Access-Control-Allow-Origin": "*"
+        "Access-Control-Allow-Origin": "*",
+        "Content-Type": "application/json"
       }
     }
   )

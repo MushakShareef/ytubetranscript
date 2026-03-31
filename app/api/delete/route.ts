@@ -8,7 +8,7 @@ export async function POST(req: Request) {
     .from("transcripts")
     .delete()
     .eq("id", file)
-
+  
   if (error) {
     return NextResponse.json({ error }, { status: 500 })
   }
