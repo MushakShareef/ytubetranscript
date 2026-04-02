@@ -5,9 +5,12 @@ export async function GET() {
     .from("prompts")
     .select("*")
 
+  console.log("DATA:", data)
+  console.log("ERROR:", error)
+
   if (error) {
     return Response.json({ error: error.message })
   }
 
-  return Response.json(data)
+  return Response.json({ data })
 }
