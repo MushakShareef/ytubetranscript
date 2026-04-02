@@ -10,9 +10,9 @@ export default function LoginPage() {
 
   // ✅ HARD CODED NUMBERS
   const allowedUsers = [
-    { mobile: "7010239825", name: "Ameer", role: "admin" },
-    { mobile: "9865689156", name: "Reema", role: "user" },
-    { mobile: "7200676464", name: "Sugguna", role: "user" },
+    { mobile: "7010239825", name: "BK Ameer", role: "user" },
+    { mobile: "9865689156", name: "BK Mushak Shareef", role: "admin" },
+    { mobile: "7200676464", name: "BK Sugguna", role: "user" },
     { mobile: "9952060058", name: "BK Chithra", role: "user" },
   ]
 
