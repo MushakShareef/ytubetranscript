@@ -14,6 +14,8 @@ export default function LoginPage() {
     { mobile: "9865689156", name: "BK Mushak Shareef", role: "admin" },
     { mobile: "7200676464", name: "BK Sugguna", role: "user" },
     { mobile: "9952060058", name: "BK Chithra", role: "user" },
+    { mobile: "6369642920", name: "BK Chandran", role: "user" },
+    { mobile: "7395955952", name: "BK Zaheer", role: "user" },
   ]
 
   const handleLogin = () => {
